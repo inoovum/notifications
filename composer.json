@@ -1,0 +1,18 @@
+{
+    "description": "",
+    "type": "neos-package",
+    "name": "steinbauerit/notifications",
+    "require": {
+        "neos/flow": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "SteinbauerIT\\Notifications\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "SteinbauerIT.Notifications"
+        }
+    }
+}
