@@ -1,0 +1,19 @@
+SteinbauerIT:
+  Notifications:
+    default:
+      distributionMethods:
+        'inline':
+          enabled: true
+      asSummary: 'none' # none, daily, weekly
+    distributionMethods:
+      'inline':
+        autoDistribute: true
+    categories:
+      'notifications':
+        distributionMethods:
+          'inline':
+            enabled: true
+        asSummary: 'none' # none, daily, weekly
+    summary:
+      dailySummaryTitle: 'Your daily summary'
+      weeklySummaryTitle: 'Your weekly summary'
